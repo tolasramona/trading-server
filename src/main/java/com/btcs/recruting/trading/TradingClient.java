@@ -58,9 +58,9 @@ public class TradingClient
 
     private static void showCapitalisation(String clientId)
     {
-        System.out.println("-------------------------------------------------------------------");
+        System.out.println("--------------------------------------------------------------------");
         System.out.println("Client " + clientId + " has capitalization = " + server.getClientCapitalisationService().getClientCapitalisation("jon"));
-        System.out.println("-------------------------------------------------------------------");
+        System.out.println("--------------------------------------------------------------------");
     }
 
     private static void showPortofolioValue(String clientId)
