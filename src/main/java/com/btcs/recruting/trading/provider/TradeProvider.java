@@ -50,7 +50,7 @@ public class TradeProvider
                     .instrumentId("XLON;GOOG")
                     .side(SELL)
                     .class_(AssetClass.STRATEGY)
-                    .clientId("jon")
+                    .clientId("Jon")
                     .price(10)
                     .qty(20)
                     .build(),
@@ -58,7 +58,7 @@ public class TradeProvider
                     .instrumentId("XLON;GOOG")
                     .side(SELL)
                     .class_(AssetClass.EQUITY)
-                    .clientId("jon")
+                    .clientId("Jon")
                     .price(11)
                     .qty(20)
                     .build())
