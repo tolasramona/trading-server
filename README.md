@@ -51,7 +51,7 @@ Example of computing the capitalization for client 'jon' using the trades provid
 - trades of the client:
 ```
 | jon        | XPAR;FTE   |      BUY |       10 |        3|      OPTION|    ----> trade capitalisation = 3000
-| jon        | XLON;GOOG  |      BUY |       10 |       20|      EQUITY|    ----> trade capitalisation = 20
+| jon        | XLON;GOOG  |      BUY |       10 |       20|      EQUITY|    ----> trade capitalisation = 200
 | jon        | XLON;GOOG  |     SELL |       10 |       20|    STRATEGY|    ----> trade capitalisation = 0
 | jon        | XLON;GOOG  |     SELL |       11 |       20|      EQUITY|    ----> trade capitalisation = 220
 ``` 
@@ -70,11 +70,11 @@ Expected behavior:the capitalisation of client `jon` should be `3420`
 - trades of the client `jon` are:
 ```
 | jon        | XPAR;FTE   |      BUY |       10 |        3|      OPTION|    ----> trade capitalisation = 3000
-| jon        | XLON;GOOG  |      BUY |       10 |       20|      EQUITY|    ----> trade capitalisation = 20
+| jon        | XLON;GOOG  |      BUY |       10 |       20|      EQUITY|    ----> trade capitalisation = 200
 | jon        | XLON;GOOG  |     SELL |       10 |       20|    STRATEGY|    ----> trade capitalisation = 0
 | jon        | XLON;GOOG  |     SELL |       11 |       20|      EQUITY|    ----> trade capitalisation = 220
 ``` 
-- client `jon` capitalisation = 3000 + 20 + 0 + 220 = 3420
+- client `jon` capitalisation = 3000 + 200 + 0 + 220 = 3420
 
 ## Hint:
 There are also some unit tests covering this scenario. 

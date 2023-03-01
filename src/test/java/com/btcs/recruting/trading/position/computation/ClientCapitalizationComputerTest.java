@@ -28,7 +28,7 @@ class ClientCapitalizationComputerTest
         /**
          * The client `jon` has the following trades:
          * | jon        | XPAR;FTE   |      BUY |       10 |        3|      OPTION|    ----> trade capitalisation = 3000
-         * | jon        | XLON;GOOG  |      BUY |       10 |       20|      EQUITY|    ----> trade capitalisation = 20
+         * | jon        | XLON;GOOG  |      BUY |       10 |       20|      EQUITY|    ----> trade capitalisation = 200
          * | jon        | XLON;GOOG  |     SELL |       10 |       20|    STRATEGY|    ----> trade capitalisation = 0
          * | jon        | XLON;GOOG  |     SELL |       11 |       20|      EQUITY|    ----> trade capitalisation = 220
          */
